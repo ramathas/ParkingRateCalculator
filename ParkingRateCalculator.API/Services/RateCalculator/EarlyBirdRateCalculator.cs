@@ -10,7 +10,7 @@ namespace ParkingRateCalculator.API.Services
        
 
         
-        public ParkingCharge CalculateChages(DateTime entryDateTime, DateTime exitDateTime)
+        public ParkingCharge GetRate(DateTime entryDateTime, DateTime exitDateTime)
         {
             if (entryDateTime.TimeOfDay >= new TimeSpan(6, 0, 0)
                && entryDateTime.TimeOfDay <= new TimeSpan(9, 0, 0)

@@ -89,3 +89,13 @@ C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\obj\Debug\
 C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\obj\Debug\netcoreapp3.1\ParkingRateCalculator.API.dll
 C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\obj\Debug\netcoreapp3.1\ParkingRateCalculator.API.pdb
 C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\obj\Debug\netcoreapp3.1\ParkingRateCalculator.API.genruntimeconfig.cache
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\obj\Debug\netcoreapp3.1\ParkingRateCalculator.API.csproj.CoreCompileInputs.cache
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\obj\Debug\netcoreapp3.1\ParkingRateCalculator.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\obj\Debug\netcoreapp3.1\ParkingRateCalculator.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\bin\Debug\netcoreapp3.1\Microsoft.DotNet.InternalAbstractions.dll
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyModel.dll
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\bin\Debug\netcoreapp3.1\SwashBuckle.AspNetCore.MicrosoftExtensions.dll
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Source\TallyIT\ParkingRateCalculator.API\ParkingRateCalculator.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll

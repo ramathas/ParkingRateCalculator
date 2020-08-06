@@ -7,6 +7,6 @@ namespace ParkingRateCalculator.API
 {
     public interface IRateCalculator
     {
-        public ParkingCharge CalculateChages(DateTime entryDateTime, DateTime exitDateTime);
+        public ParkingCharge GetRate(DateTime entryDateTime, DateTime exitDateTime);
     }
 }

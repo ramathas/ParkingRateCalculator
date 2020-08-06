@@ -28,7 +28,7 @@ namespace ParkingRateCalculator.API.Controllers
             ParkingCharge charge;
             try
             {
-                charge = _calculatorService.CalculateChages(entryDateTime, ExitDateTime);
+                charge = _calculatorService.CalculateCharges(entryDateTime, ExitDateTime);
                 return Ok(charge);
             }
             catch(Exception ex)

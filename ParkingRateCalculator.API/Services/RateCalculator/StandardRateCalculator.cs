@@ -7,7 +7,7 @@ namespace ParkingRateCalculator.API
 {
     public class StandardRateCalculator : IRateCalculator
     {
-        public ParkingCharge CalculateChages(DateTime entryDateTime, DateTime exitDateTime)
+        public ParkingCharge GetRate(DateTime entryDateTime, DateTime exitDateTime)
         {
             var hours = (exitDateTime - entryDateTime).TotalHours;
             double amount;

@@ -7,7 +7,7 @@ namespace ParkingRateCalculator.API
 {
     public class NightRateCalculator : IRateCalculator
     {
-        public ParkingCharge CalculateChages(DateTime entryDateTime, DateTime exitDateTime)
+        public ParkingCharge GetRate(DateTime entryDateTime, DateTime exitDateTime)
         {
             if (entryDateTime.IsWeekDay() && (entryDateTime.Hour > 18)
                 && exitDateTime.TimeOfDay >= new TimeSpan(15, 30, 0)

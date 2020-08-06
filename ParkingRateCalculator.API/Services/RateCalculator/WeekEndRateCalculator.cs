@@ -7,7 +7,7 @@ namespace ParkingRateCalculator.API.Services
 {
     public class WeekEndRateCalculator : IRateCalculator
     {
-        public ParkingCharge CalculateChages(DateTime entryDateTime, DateTime exitDateTime)
+        public ParkingCharge GetRate(DateTime entryDateTime, DateTime exitDateTime)
         {
             // this will satisfy 
             //Enter anytime past midnight on Friday to Sunday

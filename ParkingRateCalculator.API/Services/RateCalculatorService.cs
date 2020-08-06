@@ -15,7 +15,7 @@ namespace ParkingRateCalculator.API
             _rateRepository = rateRepository ?? throw new ArgumentNullException(nameof(rateRepository));
         }
 
-        public ParkingCharge CalculateChages(DateTime entryDateTime, DateTime exitDateTime)
+        public ParkingCharge CalculateCharges(DateTime entryDateTime, DateTime exitDateTime)
         {
             ParkingCharge charges = null;
             ParkingCharge comparitionRate = null;
@@ -31,7 +31,7 @@ namespace ParkingRateCalculator.API
             {
                 rateCalculator = RateCalculatorFactory.GetCalculator(item.Key);
 
-                comparitionRate  = rateCalculator.CalculateChages(entryDateTime, exitDateTime);
+                comparitionRate  = rateCalculator.GetRate(entryDateTime, exitDateTime);
                 if (charges == null && comparitionRate != null)
                 {
                     charges = comparitionRate;
